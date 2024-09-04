@@ -1,0 +1,2 @@
+RewriteEngine On
+ErrorDocument 404 /pages/pages-misc-error.php
