@@ -69,43 +69,6 @@
               </ul> -->
             </li>
 
-            <!-- Layouts -->
-            <!-- <li class="menu-item">
-              <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons ri-layout-2-line"></i>
-                <div data-i18n="Layouts">Layouts</div>
-              </a>
-
-              <ul class="menu-sub">
-                <li class="menu-item">
-                  <a href="layouts-without-menu.html" class="menu-link">
-                    <div data-i18n="Without menu">Without menu</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="layouts-without-navbar.html" class="menu-link">
-                    <div data-i18n="Without navbar">Without navbar</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="layouts-container.html" class="menu-link">
-                    <div data-i18n="Container">Container</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="layouts-fluid.html" class="menu-link">
-                    <div data-i18n="Fluid">Fluid</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="layouts-blank.html" class="menu-link">
-                    <div data-i18n="Blank">Blank</div>
-                  </a>
-                </li>
-              </ul>
-            </li> -->
-
-            <!-- Front Pages -->
             
 
            
@@ -113,11 +76,26 @@
             <!-- Components -->
             <li class="menu-header mt-7"><span class="menu-header-text">Components</span></li>
             <!-- Cards -->
-            <li class="menu-item <?php if($page=="AddCities"){echo 'active';} ?>">
-              <a href="/pages/addCities.php" class="menu-link">
-                <i class="menu-icon tf-icons ri-bank-card-2-line"></i>
-                <div data-i18n="Basic">Asvertising</div>
+
+            <li class="menu-item <?php if($mainpage=="asvertising"){echo 'open';} ?>">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon ri-flag-2-line"></i>
+                <div data-i18n="Layouts">Asvertising</div>
               </a>
+
+              <ul class="menu-sub">
+                <li class="menu-item <?php if($page=="addPageAds"){echo 'active';} ?>">
+                  <a href="/pages/addPageAds.php" class="menu-link">
+                    <div data-i18n="Without menu">Add Page Ads</div>
+                  </a>
+                </li>
+                <li class="menu-item <?php if($page=="detailsAds"){echo 'active';} ?>">
+                  <a href="detailsAds.php" class="menu-link">
+                    <div data-i18n="Without navbar">Details Ads</div>
+                  </a>
+                </li>
+                
+              </ul>
             </li>
             
 
@@ -231,10 +209,24 @@
               </a>
             </li>
             <li class="menu-item">
-              <a href="icons-ri.html" class="menu-link">
-                <i class="menu-icon tf-icons ri-remixicon-line"></i>
-                <div data-i18n="Icons">FAQ</div>
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon ri-questionnaire-fill"></i>
+                <div data-i18n="Layouts">FAQ</div>
               </a>
+
+              <ul class="menu-sub">
+                <li class="menu-item <?php if($page=="addFAQ"){echo 'active';} ?>">
+                  <a href="/pages/addFAQ.php" class="menu-link">
+                    <div data-i18n="Without menu">Add FAQ</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="layouts-without-navbar.html" class="menu-link">
+                    <div data-i18n="Without navbar">Without navbar</div>
+                  </a>
+                </li>
+                
+              </ul>
             </li>
 
             

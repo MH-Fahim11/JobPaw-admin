@@ -14,7 +14,7 @@
           name="viewport"
           content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
-        <title>Dashboard - </title>
+        <title>Dashboard - Listing Domaines</title>
 
         <meta name="description" content="" />
 
@@ -59,7 +59,7 @@
 
               <?php
                   $logo = "../assets/img/logo/logo.jpg";
-                  $page ="#";
+                  $page ="";
                   include_once('../component/sideMenu.php') ; 
               ?>
               <!-- / Menu -->
@@ -75,7 +75,51 @@
               <!-- Content wrapper -->
               <div class="container-xxl flex-grow-1 container-p-y">
 
+        
+                <div class="row">
+                    <div class="col-xxl">
+                        <div class="card mb-6">
+                            <div class="card-header d-flex align-items-center justify-content-between">
+                                <h5 class="mb-0 text-primary">Liste de domaines (47 )</h5>
+                                <small class=" text-primary">Ajouter un domaine</small>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive text-nowrap">
+                                    <table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th>ID</th>
+                                                <th>Domaine</th>
+                                                <th>Actif</th>
+                                                <th>Supprimer</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>- - Non-defini - -</td>
+                                                <td>non</td>
+                                                <td><button class="text-danger border-none"><i class="ri-delete-bin-7-fill"></i></button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>Agriculture – Agroalimentaire</td>
+                                                <td>oui</td>
+                                                <td><button class="text-danger border-none"><i class="ri-delete-bin-7-fill"></i></button></td>
+                                            </tr>
+                                            
+                                            
+                                           
+                                            
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+                
 
 
 
