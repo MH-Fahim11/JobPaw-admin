@@ -74,7 +74,7 @@
 
           <!-- Content wrapper -->
           <div class="container-xxl flex-grow-1 container-p-y">
-          <div class="row">
+            <div class="row">
                 <!-- Basic Layout -->
                 <div class="col-xxl">
                   <div class="card mb-6">
