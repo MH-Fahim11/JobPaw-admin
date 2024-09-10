@@ -220,9 +220,9 @@
                     <div data-i18n="Without menu">Add FAQ</div>
                   </a>
                 </li>
-                <li class="menu-item">
-                  <a href="layouts-without-navbar.html" class="menu-link">
-                    <div data-i18n="Without navbar">Without navbar</div>
+                <li class="menu-item <?php if($page=="istingFAQ"){echo 'active';} ?>">
+                  <a href="listingFAQ.php" class="menu-link">
+                    <div data-i18n="Without navbar">List FAQ</div>
                   </a>
                 </li>
                 

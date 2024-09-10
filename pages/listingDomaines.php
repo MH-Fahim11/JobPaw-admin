@@ -83,6 +83,7 @@
                                 <h5 class="mb-0 text-primary">Liste de domaines (47 )</h5>
                                 <small class=" text-primary">Ajouter un domaine</small>
                             </div>
+                            <small class="ms-5">Cliquer sur un domaine pour le modifier</small>
                             <div class="card-body">
                                 <div class="table-responsive text-nowrap">
                                     <table class="table table-bordered">
