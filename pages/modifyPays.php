@@ -1,4 +1,5 @@
 <!doctype html>
+
 <html
   lang="en"
   class="light-style layout-menu-fixed layout-compact"
@@ -13,7 +14,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
-    <title>Dashboard - Add Cities</title>
+    <title>Dashboard - Modifier Pays </title>
 
     <meta name="description" content="" />
 
@@ -58,7 +59,7 @@
 
         <?php
             $logo = "../assets/img/logo/logo.jpg";
-            $page ="AddCities";
+            $page ="addPyas";
             include_once('../component/sideMenu.php') ; 
         ?>
         <!-- / Menu -->
@@ -73,35 +74,64 @@
 
           <!-- Content wrapper -->
           <div class="container-xxl flex-grow-1 container-p-y">
-            <div class="col-md-12">
-             <div class="card">
-               <h5 class="card-header text-primary">Ajouter une ville</h5>
-                <div class="card-body">
-                  <div class="mt-2 mb-4">
-                    <label for="largeSelect" class="form-label">Pays</label>
-                    <select id="largeSelect" class="form-select form-select-lg">
-                      <option value="1">One</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
-                    </select>
-                  </div>
-                 
-               
-                  <div class="mt-2 mb-4">
-                    <label for="largeInput" class="form-label">Nom ville</label>
-                    <input
-                      id="largeInput"
-                      class="form-control form-control-lg"
-                      type="text"
-                      placeholder="" />
-                  </div>
+            <div class="row">
+                    <!-- Basic Layout -->
+                    <div class="col-xxl">
+                    <div class="card mb-6">
+                        <div class="card-header d-flex align-items-center justify-content-between">
+                        <h5 class="mb-0 text-primary">Modifier un pays</h5>
+                        
+                        <!-- <small class="text-muted float-end">Default label</small> -->
+                        </div>
+                        <div class="card-body">
+                        <form>
 
-                  <div class="demo-inline-spacing">
-                    <button type="button" class="btn btn-primary">Ajouter</button> 
-                  </div>
+
+                        <div class="row mb-4">
+                                <label for="smallSelect" class=" col-sm-2 col-form-label">Continent</label>
+                                <div class="col-sm-10">
+                                    <select id="smallSelect" class="form-select ">
+                                        <option>Amerique</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="row mb-4">
+                                <label class="col-sm-2 col-form-label" for="basic-default-name">Nom pays</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="basic-default-name" placeholder="Nom pays" />
+                                </div>
+                            </div>
+
+                            
+                            <div class="row mb-4">
+                                <label for="exampleFormControlTextarea1" class=" col-sm-2 col-form-label">Description :</label>
+                                <div class="col-sm-10">
+                                    <textarea
+                                    class="form-control h-px-100"
+                                    id="exampleFormControlTextarea1"
+                                    placeholder="Comments here..."></textarea>
+                                </div>
+                            </div>
+
+                            <div class="row justify-content-end">
+                            <div class="col-sm-10">
+                                <button type="submit" class="btn btn-primary">Modifier</button>
+                            </div>
+                            </div>
+
+                        </form>
+
+                        </div>
+
+                    </div>
+                    </div>
+                
+
                 </div>
-              </div>
-            </div>
           </div>
           <!-- Content wrapper -->
 

@@ -1,4 +1,5 @@
 <!doctype html>
+
 <html
   lang="en"
   class="light-style layout-menu-fixed layout-compact"
@@ -13,7 +14,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
-    <title>Dashboard - Add Cities</title>
+    <title>Modify Domaines - Dashboard </title>
 
     <meta name="description" content="" />
 
@@ -58,7 +59,7 @@
 
         <?php
             $logo = "../assets/img/logo/logo.jpg";
-            $page ="AddCities";
+            $page ="#";
             include_once('../component/sideMenu.php') ; 
         ?>
         <!-- / Menu -->
@@ -73,35 +74,43 @@
 
           <!-- Content wrapper -->
           <div class="container-xxl flex-grow-1 container-p-y">
-            <div class="col-md-12">
+          <div class="col-md-12">
              <div class="card">
-               <h5 class="card-header text-primary">Ajouter une ville</h5>
+               <h5 class="card-header text-primary">Modifier un domaine</h5>
                 <div class="card-body">
-                  <div class="mt-2 mb-4">
-                    <label for="largeSelect" class="form-label">Pays</label>
+                    
+                    
+                    <div class="mb-6">
+                        <label for="smallInput" class="form-label">ID:</label>
+                        <input id="smallInput" class="form-control form-control-sm"  disabled type="text" placeholder="2" />
+                    </div>
+                    <div class="mb-6">
+                        <label for="smallInput" class="form-label">Nom domaine</label>
+                        <input id="smallInput" class="form-control form-control-sm" type="text" placeholder="Compagnie" />
+                    </div>
+                
+                    <div class="form-floating form-floating-outline mb-6">
+                        <textarea
+                          class="form-control h-px-100"
+                          id="exampleFormControlTextarea1"
+                          placeholder="Comments here..."></textarea>
+                        <label for="exampleFormControlTextarea1">Description(facultatif)</label>
+                      </div>
+                      <div class="mt-2 mb-4">
+                    <label for="largeSelect" class="form-label">Actif</label>
                     <select id="largeSelect" class="form-select form-select-lg">
                       <option value="1">One</option>
                       <option value="2">Two</option>
                       <option value="3">Three</option>
                     </select>
                   </div>
-                 
-               
-                  <div class="mt-2 mb-4">
-                    <label for="largeInput" class="form-label">Nom ville</label>
-                    <input
-                      id="largeInput"
-                      class="form-control form-control-lg"
-                      type="text"
-                      placeholder="" />
-                  </div>
 
                   <div class="demo-inline-spacing">
-                    <button type="button" class="btn btn-primary">Ajouter</button> 
+                    <button type="button" class="btn btn-primary">Modifier</button> 
                   </div>
                 </div>
               </div>
-            </div>
+          </div>
           </div>
           <!-- Content wrapper -->
 
@@ -116,7 +125,8 @@
       </div>
 
       <!-- Overlay -->
-      <div class="layout-overlay layout-menu-toggle"></div>
+    <div class="layout-overlay layout-menu-toggle"></div>
+        
     </div>
     <!-- / Layout wrapper -->
 

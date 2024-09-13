@@ -75,7 +75,7 @@
           <div class="container-xxl flex-grow-1 container-p-y">
             <div class="col-md-12">
              <div class="card">
-               <h5 class="card-header text-primary">Ajouter une ville</h5>
+               <h5 class="card-header text-primary">Modifier une villee</h5>
                 <div class="card-body">
                   <div class="mt-2 mb-4">
                     <label for="largeSelect" class="form-label">Pays</label>
@@ -88,7 +88,7 @@
                  
                
                   <div class="mt-2 mb-4">
-                    <label for="largeInput" class="form-label">Nom ville</label>
+                    <label for="largeInput" class="form-label">Ville</label>
                     <input
                       id="largeInput"
                       class="form-control form-control-lg"
@@ -97,7 +97,7 @@
                   </div>
 
                   <div class="demo-inline-spacing">
-                    <button type="button" class="btn btn-primary">Ajouter</button> 
+                    <button type="button" class="btn btn-primary">Modifier</button> 
                   </div>
                 </div>
               </div>

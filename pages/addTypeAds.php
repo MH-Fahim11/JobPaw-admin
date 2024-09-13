@@ -85,7 +85,6 @@
                                 </div>
                                 <div class="card-body">
                                     <form>
-
                                         <div class="row mb-4">
                                             <label class="col-sm-2 col-form-label" for="basic-default-name">Type :</label>
                                             <div class="col-sm-10">
@@ -114,10 +113,7 @@
                                             <div class="col-sm-10">
                                                 <input type="text" class="form-control" id="basic-default-name" placeholder="(KB)" />
                                             </div>
-                                        </div>
-
-                                        
-
+                                        </div>     
                                         
                                         <div class="row mb-4">
                                             <label for="exampleFormControlTextarea1" class=" col-sm-2 col-form-label">Remarque :</label>

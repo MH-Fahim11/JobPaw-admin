@@ -48,3 +48,13 @@ https://jobpaw-admin.fahimagro.com/pages/listingUsers.php
 https://jobpaw-admin.fahimagro.com/pages/manageHomepage.php
 https://jobpaw-admin.fahimagro.com/pages/modifyMailUsers.php
 https://jobpaw-admin.fahimagro.com/pages/modifyAdmin.php
+https://jobpaw-admin.fahimagro.com/pages/modifyAds.php
+https://jobpaw-admin.fahimagro.com/pages/modifyArticles.php
+https://jobpaw-admin.fahimagro.com/pages/modifyArticles-2.php
+https://jobpaw-admin.fahimagro.com/pages/modifyCities.php
+https://jobpaw-admin.fahimagro.com/pages/modifyCompanies.php
+https://jobpaw-admin.fahimagro.com/pages/modifyDomaines.php
+https://jobpaw-admin.fahimagro.com/pages/modifyFAQ.php
+https://jobpaw-admin.fahimagro.com/pages/modifyPays.php
+https://jobpaw-admin.fahimagro.com/modifyProgramUniversities.php
+https://jobpaw-admin.fahimagro.com/modifySpecialities.php
