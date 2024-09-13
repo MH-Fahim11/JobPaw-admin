@@ -23,11 +23,9 @@ https://jobpaw-admin.fahimagro.com/pages/listingAdmin.php
 https://jobpaw-admin.fahimagro.com/pages/listingCities.php
 https://jobpaw-admin.fahimagro.com/pages/listingDomaines.php
 https://jobpaw-admin.fahimagro.com/pages/pages-misc-error.php
-
 https://jobpaw-admin.fahimagro.com/pages/detailsScholarships.php
 https://jobpaw-admin.fahimagro.com/pages/detailsTenders.php
 https://jobpaw-admin.fahimagro.com/pages/detailsUniversities.php
-
 https://jobpaw-admin.fahimagro.com/pages/detailsUsers-prof.php
 https://jobpaw-admin.fahimagro.com/pages/detailsUsers.php
 https://jobpaw-admin.fahimagro.com/pages/listingAds.php
@@ -40,3 +38,13 @@ https://jobpaw-admin.fahimagro.com/pages/listingMessages.php
 https://jobpaw-admin.fahimagro.com/pages/listingOrganizationsInternationales.php
 https://jobpaw-admin.fahimagro.com/pages/listingPays.php
 https://jobpaw-admin.fahimagro.com/pages/listingScholarships.php
+https://jobpaw-admin.fahimagro.com/pages/listingSpecialities.php
+https://jobpaw-admin.fahimagro.com/pages/listingStrategies.php
+https://jobpaw-admin.fahimagro.com/pages/listingTenders.php
+https://jobpaw-admin.fahimagro.com/pages/listingTestimonies.php
+https://jobpaw-admin.fahimagro.com/pages/listingTraining.php
+https://jobpaw-admin.fahimagro.com/pages/listingUniversities.php
+https://jobpaw-admin.fahimagro.com/pages/listingUsers.php
+https://jobpaw-admin.fahimagro.com/pages/manageHomepage.php
+https://jobpaw-admin.fahimagro.com/pages/modifyMailUsers.php
+https://jobpaw-admin.fahimagro.com/pages/modifyAdmin.php
