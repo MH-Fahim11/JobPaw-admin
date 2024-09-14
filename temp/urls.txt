@@ -55,6 +55,10 @@ https://jobpaw-admin.fahimagro.com/pages/modifyCities.php
 https://jobpaw-admin.fahimagro.com/pages/modifyCompanies.php
 https://jobpaw-admin.fahimagro.com/pages/modifyDomaines.php
 https://jobpaw-admin.fahimagro.com/pages/modifyFAQ.php
+https://jobpaw-admin.fahimagro.com/pages/modifyJobs.php
 https://jobpaw-admin.fahimagro.com/pages/modifyPays.php
 https://jobpaw-admin.fahimagro.com/modifyProgramUniversities.php
+https://jobpaw-admin.fahimagro.com/modifyScholarships.php
 https://jobpaw-admin.fahimagro.com/modifySpecialities.php
+https://jobpaw-admin.fahimagro.com/modifyStrategies.php
+https://jobpaw-admin.fahimagro.com/modifyTenders.php
