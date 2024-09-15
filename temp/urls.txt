@@ -62,3 +62,7 @@ https://jobpaw-admin.fahimagro.com/modifyScholarships.php
 https://jobpaw-admin.fahimagro.com/modifySpecialities.php
 https://jobpaw-admin.fahimagro.com/modifyStrategies.php
 https://jobpaw-admin.fahimagro.com/modifyTenders.php
+https://jobpaw-admin.fahimagro.com/modifyTestimonies.php
+https://jobpaw-admin.fahimagro.com/modifyTraining.php
+https://jobpaw-admin.fahimagro.com/modifyUniversities.php
+https://jobpaw-admin.fahimagro.com/postScholarships.php

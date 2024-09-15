@@ -14,7 +14,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
-    <title>Dashboard - Tenders </title>
+    <title>Dashboard - Modify Testimonies </title>
 
     <meta name="description" content="" />
 
@@ -79,35 +79,77 @@
                     <div class="col-xxl">
                         <div class="card mb-6">
                             <div class="card-header d-flex align-items-center justify-content-between">
-                                <h5 class="mb-0 text-primary">Modifier un appel d'offre</h5>
-                            
-                            <!-- <small class="text-muted float-end">Default label</small> -->
+                                <div>
+                                    <h5 class="mb-0 text-primary">Modifier un seminaire</h5>
+                                    <small>Vous pouvez modifier un séminaire à partir de cette interface.</small> <br/>
+                                    <samll><b>A NOTER : Quand vous modifiez les données dans les champs, ne laissez les "&lt;br /&gt;" que si vous voulez vraiment aller à la ligne.</b></samll>
+                                </div>
                             </div>
 
                             <div class="card-body">
                                 <form>
+                                    
                                     <div class="row mb-4">
-                                        <label for="smallSelect" class=" col-sm-2 col-form-label">Compagnie</label>
+                                        <label class="col-sm-2 col-form-label" for="basic-default-name">Publié par <span class=" text-danger">*</span> </label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="basic-default-name" placeholder="Publié par" />
+                                        </div>
+                                    </div>
+                                    <div class="row mb-4">
+                                        <label class="col-sm-2 col-form-label" for="basic-default-name">Publié le <span class=" text-danger">*</span> </label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="basic-default-name" disabled placeholder="2024-08-18" />
+                                        </div>
+                                    </div>
+                                    <div class="row mb-4">
+                                        <label class="col-sm-2 col-form-label" for="basic-default-name">Thème <span class=" text-danger">*</span> </label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="basic-default-name" placeholder="Thème" />
+                                        </div>
+                                    </div>
+
+                                    <div class="row mb-4">
+                                        <label class="col-sm-2 col-form-label" for="basic-default-name">Date <span class=" text-danger">*</span> </label>
+                                        <div class="col-sm-10">
+                                            <input class="form-control" type="date" id="html5-date-input" />
+                                            <label for="html5-date-input">Date</label>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-4">
+                                        <label class="col-sm-2 col-form-label" for="basic-default-name">Heure <span class=" text-danger">*</span> </label>
+                                        <div class="col-sm-10">
+                                            <input class="form-control" type="time" id="html5-time-input" />
+                                            <label for="html5-time-input">Time</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="row mb-4">
+                                        <label for="smallSelect" class=" col-sm-2 col-form-label">Ville</label>
                                         <div class="col-sm-10">
                                             <select id="smallSelect" class="form-select ">
-                                                <option> Centres pour le</option>
                                                 <option value="1">One</option>
-                                                <option value="2">Two</option>
+                                                <option value="2">Non</option>
                                                 <option value="3">Three</option>
                                             </select>
                                         </div>
                                     </div>
 
                                     <div class="row mb-4">
-                                        <label class="col-sm-2 col-form-label" for="basic-default-name">Secteur d'activité <span class=" text-danger">*</span> </label>
+                                        <label class="col-sm-2 col-form-label" for="basic-default-name">Adresse <span class=" text-danger">*</span> </label>
                                         <div class="col-sm-10">
-                                            <input type="text" class="form-control" id="basic-default-name" placeholder="Secteur d'activité" />
+                                            <input type="text" class="form-control" id="basic-default-name" placeholder="Adresse" />
+                                        </div>
+                                    </div>
+                                    <div class="row mb-4">
+                                        <label class="col-sm-2 col-form-label" for="basic-default-name">Cout <span class=" text-danger">*</span> </label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="basic-default-name" placeholder="Cout" />
                                         </div>
                                     </div>
 
-                                   
                                     <div class="row mb-4">
-                                        <label class="col-sm-2 col-form-label" for="basic-default-message">Appel d'offre</label>
+                                        <label class="col-sm-2 col-form-label" for="basic-default-message">Public
+                                        Cible</label>
                                         <div class="col-sm-10">
                                             <textarea
                                             id="basic-default-message"
@@ -118,152 +160,32 @@
                                         </div>
                                     </div> 
                                     <div class="row mb-4">
-                                        <label class="col-sm-2 col-form-label" for="basic-default-name">Numero </label>
+                                        <label for="smallSelect" class=" col-sm-2 col-form-label">Domaine d'activité</label>
                                         <div class="col-sm-10">
-                                            <input type="text" class="form-control" id="basic-default-name" placeholder="Numero" />
-                                        </div>
-                                    </div>
-                                    <div class="row mb-4">
-                                        <label class="col-sm-2 col-form-label" for="basic-default-name">Prêt </label>
-                                        <div class="col-sm-10">
-                                            <input type="text" class="form-control" id="basic-default-name" placeholder="Prêt" />
-                                        </div>
-                                    </div>
-                                    <div class="row mb-4">
-                                        <label for="smallSelect" class=" col-sm-2 col-form-label">Pays d'execution</label>
-                                        <div class="col-sm-10">
+                                        <label for="smallSelect" class=" col-sm-2 col-form-label"> Actuel: Communication et Journalisme</label>
                                             <select id="smallSelect" class="form-select ">
-                                                <option>Haiti</option>
-                                                <option value="1">One</option>
-                                                <option value="2">Two</option>
+                                                <option value="1">- - Choisissez un domaine - -</option>
+                                                <option value="2">Non</option>
                                                 <option value="3">Three</option>
                                             </select>
+                                            <small>Pour changer choisisse</small>
                                         </div>
                                     </div>
                                     <div class="row mb-4">
-                                        <label class="col-sm-2 col-form-label" for="basic-default-message">Zone(s) d'execution</label>
+                                        <label for="smallSelect" class=" col-sm-2 col-form-label">Spécialité</label>
                                         <div class="col-sm-10">
-                                            <textarea
-                                            id="basic-default-message"
-                                            class="form-control"
-                                            placeholder="..."
-                                            aria-label="..."
-                                            aria-describedby="basic-icon-default-message2"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="row mb-4">
-                                        <label class="col-sm-2 col-form-label" for="basic-default-message">Introduction</label>
-                                        <div class="col-sm-10">
-                                            <textarea
-                                            id="basic-default-message"
-                                            class="form-control"
-                                            placeholder="..."
-                                            aria-label="..."
-                                            aria-describedby="basic-icon-default-message2"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="row mb-4">
-                                        <label class="col-sm-2 col-form-label" for="basic-default-message">Description de Taches</label>
-                                        <div class="col-sm-10">
-                                            <textarea
-                                            id="basic-default-message"
-                                            class="form-control"
-                                            placeholder="..."
-                                            aria-label="..."
-                                            aria-describedby="basic-icon-default-message2"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="row mb-4">
-                                        <label class="col-sm-2 col-form-label" for="basic-default-message">Profil de la firme ou du groupe de consultant</label>
-                                        <div class="col-sm-10">
-                                            <textarea
-                                            id="basic-default-message"
-                                            class="form-control"
-                                            placeholder="..."
-                                            aria-label="..."
-                                            aria-describedby="basic-icon-default-message2"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="row mb-4">
-                                        <label class="col-sm-2 col-form-label" for="basic-default-name">Coût du dossier <span class=" text-danger">*</span> </label>
-                                        <div class="col-sm-10 ">
-                                            <div class="d-flex">
-                                                <input type="text" class="form-control" id="basic-default-name" placeholder="" />
-                                                <select id="smallSelect" class="form-select ">
-                                                    <option> HTG</option>
-                                                    <option value="1">One</option>
-                                                    <option value="2">Two</option>
-                                                    <option value="3">Three</option>
-                                                </select>
-                                            </div>
-                                            <small>Laisser vide si c'est gratuit</small>
-                                        </div>
-                                    </div>
-                                    <div class="row mb-4">
-                                        <label for="smallSelect" class=" col-sm-2 col-form-label">Payable par</label>
-                                        <div class="col-sm-10">
+                                        <label for="smallSelect" class=" col-sm-2 col-form-label"> Actuel: Communication</label>
                                             <select id="smallSelect" class="form-select ">
-                                                <option>  Chèque de Direction</option>
-                                                <option value="1">One</option>
-                                                <option value="2">Two</option>
+                                                <option value="1">- - Choisissez un domaine - -</option>
+                                                <option value="2">Non</option>
                                                 <option value="3">Three</option>
                                             </select>
-                                        </div>
-                                    </div>
-                                    <div class="row mb-4">
-                                        <label class="col-sm-2 col-form-label" for="basic-default-name">Payé à<span class=" text-danger">*</span> </label>
-                                        <div class="col-sm-10">
-                                            <input type="text" class="form-control" id="basic-default-name" placeholder="Payé à" />
-                                        </div>
-                                    </div>
-                                    <div class="row mb-4">
-                                        <label class="col-sm-2 col-form-label" for="basic-default-message">Envoyer le pli à </label>
-                                        <div class="col-sm-10">
-                                            <textarea
-                                            id="basic-default-message"
-                                            class="form-control"
-                                            placeholder="..."
-                                            aria-label="..."
-                                            aria-describedby="basic-icon-default-message2"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="row mb-4">
-                                        <label for="formFile" class="col-sm-2 col-form-label">Dossier complet d'appel d'offres</label>
-                                        <div class="col-sm-10">
-                                            <input class="form-control" type="file" id="formFile" />
-                                            <small class=" text-danger"> Vous pouvez désormais télécharger le dossier complet d'appel d'offres.
-                                            A chaque modification, il faut re-télécharger le fichier</small>
-                                            <small>Seuls les fichiers aux extensions suivantes sont acceptés: rar, zip, pdf, doc, docx, jpg, jpeg, png</small>
-                                        </div>
-                                    </div>
-                                    <div class="row mb-4">
-                                        <label class="col-sm-2 col-form-label" for="basic-default-message">D'autres informations de contact</label>
-                                        <div class="col-sm-10">
-                                            <textarea
-                                            id="basic-default-message"
-                                            class="form-control"
-                                            placeholder="..."
-                                            aria-label="..."
-                                            aria-describedby="basic-icon-default-message2"></textarea>
+                                            <small>Pour changer choisissez</small>
                                         </div>
                                     </div>
 
                                     <div class="row mb-4">
-                                        <label class="col-sm-2 col-form-label" for="basic-default-company">Date limite de réception de dossier<span class=" text-danger">*</span> </label>
-                                        <div class="form-floating form-floating-outline col-sm-10">
-                                            <input class="form-control" type="datetime-local" id="html5-datetime-local-input" />
-                                            <label for="html5-datetime-local-input">Date and time</label>
-                                        </div>
-                                    </div>
-                                    <div class="row mb-4">
-                                        <label class="col-sm-2 col-form-label" for="basic-default-company">Date de proposition de l'offre.<span class=" text-danger">*</span> </label>
-                                        <div class="form-floating form-floating-outline col-sm-10">
-                                            <input class="form-control" type="datetime-local" id="html5-datetime-local-input" />
-                                            <label for="html5-datetime-local-input">Date and time</label>
-                                        </div>
-                                    </div>
-                                    <div class="row mb-4">
-                                        <label class="col-sm-2 col-form-label" for="basic-default-message">Autres Remarques</label>
+                                        <label class="col-sm-2 col-form-label" for="basic-default-message">Description</label>
                                         <div class="col-sm-10">
                                             <textarea
                                             id="basic-default-message"
@@ -272,10 +194,12 @@
                                             aria-label="..."
                                             aria-describedby="basic-icon-default-message2"></textarea>
                                         </div>
-                                    </div>                            
+                                    </div> 
+
+
                                   
                                     <div class="row mb-4">
-                                        <label for="smallSelect" class=" col-sm-2 col-form-label">Actif</label>
+                                        <label for="smallSelect" class=" col-sm-2 col-form-label">PUBLIER</label>
                                         <div class="col-sm-10">
                                             <select id="smallSelect" class="form-select ">
                                                 <option value="1">Oui</option>
@@ -284,6 +208,7 @@
                                             </select>
                                         </div>
                                     </div>
+                                    
                                     <div class="row mb-4">
                                         <label for="smallSelect" class=" col-sm-2 col-form-label">Envoyer un email aux abonnés?</label>
                                         <div class="col-sm-10">
@@ -294,12 +219,14 @@
                                             </select>
                                         </div>
                                     </div>
+                                    
 
                                     
 
                                     <div class="row justify-content-end">
                                         <div class="col-sm-10">
-                                            <button type="submit" class="btn btn-primary">Si toutes les infos sont correctes, publier au plus vite !!!</button>
+                                            <button type="submit" class="btn btn-primary">Modifier</button>
+                                           
                                         </div>
                                     </div>
 
@@ -318,7 +245,7 @@
                     <div class="col-xxl">
                         <div class="card mb-6">
                             <div class="card-header d-flex align-items-center justify-content-between">
-                                <h5 class="mb-0 text-primary">Liste des abonnés aux alertes d'appels d'offres de: Services financiers et légaux</h5>
+                                <h5 class="mb-0 text-primary">Liste des abonnés aux alertes d'emploi de la spécialité: Communication</h5>
                             </div>
                             
                             <div class="card-body">
@@ -329,55 +256,47 @@
                                                 <th>Nom</th>
                                                 <th>Prénom</th>
                                                 <th>Courriel</th>
-                                                <th>Courriel 2</th>
+                                              
                                         </thead>
                                         <tbody>
                                             <tr>
                                                 <td>JULES</td>
                                                 <td>Linda</td>
                                                 <td>linda82jules@yahoo.f</td>
-                                                <td>linda82jules@yahoo.f</td>
                                             </tr>
                                             <tr>
                                                 <td>Guerisma</td>
                                                 <td>Jyminor</td>
-                                                <td>jyminorg@yaho</td>
                                                 <td>jyminorg@yaho</td>
                                             </tr>
                                             <tr>
                                                 <td>JULES</td>
                                                 <td>Linda</td>
                                                 <td>linda82jules@yahoo.f</td>
-                                                <td>linda82jules@yahoo.f</td>
                                             </tr>
                                             <tr>
                                                 <td>Guerisma</td>
                                                 <td>Jyminor</td>
-                                                <td>jyminorg@yaho</td>
                                                 <td>jyminorg@yaho</td>
                                             </tr>
                                             <tr>
                                                 <td>JULES</td>
                                                 <td>Linda</td>
                                                 <td>linda82jules@yahoo.f</td>
-                                                <td>linda82jules@yahoo.f</td>
                                             </tr>
                                             <tr>
                                                 <td>Guerisma</td>
                                                 <td>Jyminor</td>
-                                                <td>jyminorg@yaho</td>
                                                 <td>jyminorg@yaho</td>
                                             </tr>
                                             <tr>
                                                 <td>JULES</td>
                                                 <td>Linda</td>
                                                 <td>linda82jules@yahoo.f</td>
-                                                <td>linda82jules@yahoo.f</td>
                                             </tr>
                                             <tr>
                                                 <td>Guerisma</td>
                                                 <td>Jyminor</td>
-                                                <td>jyminorg@yaho</td>
                                                 <td>jyminorg@yaho</td>
                                             </tr>
                                           
@@ -436,6 +355,7 @@
                 </div>
 
 
+            
 
 
 
