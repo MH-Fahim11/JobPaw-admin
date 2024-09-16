@@ -58,7 +58,8 @@
 
         <?php
             $logo = "../assets/img/logo/logo.jpg";
-            $page ="AddCities";
+            $page ="modifyCities";
+            $mainpage="ville";
             include_once('../component/sideMenu.php') ; 
         ?>
         <!-- / Menu -->

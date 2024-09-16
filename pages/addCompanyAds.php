@@ -60,6 +60,7 @@
         <?php
             $logo = "../assets/img/logo/logo.jpg";
             $page ="addCompanyAds";
+            $mainpage="asvertising";
             include_once('../component/sideMenu.php') ; 
         ?>
         <!-- / Menu -->

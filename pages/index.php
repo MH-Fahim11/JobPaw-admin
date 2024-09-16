@@ -67,15 +67,20 @@
     <li><a href="https://jobpaw-admin.fahimagro.com/pages/modifyFAQ.php">Modify FAQ</a></li>
     <li><a href="https://jobpaw-admin.fahimagro.com/pages/modifyJobs.php">Modify Jobs</a></li>
     <li><a href="https://jobpaw-admin.fahimagro.com/pages/modifyPays.php">Modify Pays</a></li>
-    <li><a href="https://jobpaw-admin.fahimagro.com/modifyProgramUniversities.php">Modify Program Universities</a></li>
-    <li><a href="https://jobpaw-admin.fahimagro.com/modifyScholarships.php">Modify Scholarships</a></li>
-    <li><a href="https://jobpaw-admin.fahimagro.com/modifySpecialities.php">Modify Specialities</a></li>
-    <li><a href="https://jobpaw-admin.fahimagro.com/modifyStrategies.php">Modify Strategies</a></li>
-    <li><a href="https://jobpaw-admin.fahimagro.com/modifyTenders.php">Modify Tenders</a></li>
-    <li><a href="https://jobpaw-admin.fahimagro.com/modifyTestimonies.php">Modify Testimonies</a></li>
-    <li><a href="https://jobpaw-admin.fahimagro.com/modifyTraining.php">Modify Training</a></li>
-    <li><a href="https://jobpaw-admin.fahimagro.com/modifyUniversities.php">Modify Universities</a></li>
-    <li><a href="https://jobpaw-admin.fahimagro.com/postScholarships.php">Post Scholarships.php</a></li>
+    <li><a href="https://jobpaw-admin.fahimagro.com/pages/modifyProgramUniversities.php">Modify Program Universities</a></li>
+    <li><a href="https://jobpaw-admin.fahimagro.com/pages/modifyScholarships.php">Modify Scholarships</a></li>
+    <li><a href="https://jobpaw-admin.fahimagro.com/pages/modifySpecialities.php">Modify Specialities</a></li>
+    <li><a href="https://jobpaw-admin.fahimagro.com/pages/modifyStrategies.php">Modify Strategies</a></li>
+    <li><a href="https://jobpaw-admin.fahimagro.com/pages/modifyTenders.php">Modify Tenders</a></li>
+    <li><a href="https://jobpaw-admin.fahimagro.com/pages/modifyTestimonies.php">Modify Testimonies</a></li>
+    <li><a href="https://jobpaw-admin.fahimagro.com/pages/modifyTraining.php">Modify Training</a></li>
+    <li><a href="https://jobpaw-admin.fahimagro.com/pages/modifyUniversities.php">Modify Universities</a></li>
+    <li><a href="https://jobpaw-admin.fahimagro.com/pages/postScholarships.php">Post Scholarships.php</a></li>
+    <li><a href="https://jobpaw-admin.fahimagro.com/pages/postAds.php">Post Ads</a></li>
+    <li><a href="https://jobpaw-admin.fahimagro.com/pages/postJobs.php">Post Jobs</a></li>
+    <li><a href="https://jobpaw-admin.fahimagro.com/pages/postStrategies.php">Post Strategies</a></li>
+    <li><a href="https://jobpaw-admin.fahimagro.com/pages/postTenders.php">Post Tenders</a></li>
+    <li><a href="https://jobpaw-admin.fahimagro.com/pages/postTraining.php">Post Training</a></li>
 </ol>
 </body>
 </html>

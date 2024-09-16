@@ -66,3 +66,15 @@ https://jobpaw-admin.fahimagro.com/modifyTestimonies.php
 https://jobpaw-admin.fahimagro.com/modifyTraining.php
 https://jobpaw-admin.fahimagro.com/modifyUniversities.php
 https://jobpaw-admin.fahimagro.com/postScholarships.php
+https://jobpaw-admin.fahimagro.com/postAds.php
+https://jobpaw-admin.fahimagro.com/postJobs.php
+https://jobpaw-admin.fahimagro.com/postStrategies.php
+https://jobpaw-admin.fahimagro.com/postTenders.php
+https://jobpaw-admin.fahimagro.com/postTraining.php
+
+
+
+
+
+https://jobpaw.fahimagro.com/professionals/private/modifier-un-article-un-memoire-or-travail-de-recherche.php
+https://jobpaw-admin.fahimagro.com/Jobpaw-banner.zip

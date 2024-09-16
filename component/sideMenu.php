@@ -22,7 +22,7 @@
               <a href="javascript:void(0);" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons ri-home-smile-line"></i>
                 <div data-i18n="Dashboards">Dashboards</div>
-                <div class="badge bg-danger rounded-pill ms-auto">5</div>
+                <!-- <div class="badge bg-danger rounded-pill ms-auto">5</div> -->
               </a>
               <!-- <ul class="menu-sub">
                 <li class="menu-item">
@@ -87,6 +87,11 @@
                 <li class="menu-item <?php if($page=="addPageAds"){echo 'active';} ?>">
                   <a href="/pages/addPageAds.php" class="menu-link">
                     <div data-i18n="Without menu">Add Page Ads</div>
+                  </a>
+                </li>
+                <li class="menu-item <?php if($page=="addCompanyAds"){echo 'active';} ?>">
+                  <a href="/pages/addCompanyAds.php" class="menu-link">
+                    <div data-i18n="Without menu">Add Company Ads</div>
                   </a>
                 </li>
                 <li class="menu-item <?php if($page=="detailsAds"){echo 'active';} ?>">
@@ -184,12 +189,41 @@
                 <div data-i18n="Icons">Pays</div>
               </a>
             </li>
-            <li class="menu-item">
-              <a href="icons-ri.html" class="menu-link">
-                <i class="menu-icon tf-icons ri-remixicon-line"></i>
-                <div data-i18n="Icons">Ville</div>
+
+
+            <li class="menu-item <?php if($mainpage=="ville"){echo 'open';} ?>">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+              <i class="menu-icon ri-building-line"></i>
+                <div data-i18n="Layouts">Ville</div>
               </a>
+
+              <ul class="menu-sub">
+                <li class="menu-item <?php if($page=="addCities"){echo 'active';} ?>">
+                  <a href="/pages/addCities.php" class="menu-link">
+                    <div data-i18n="Without menu">Add Ville</div>
+                  </a>
+                </li>
+                <li class="menu-item <?php if($page=="listingCities"){echo 'active';} ?>">
+                  <a href="/pages/listingCities.php" class="menu-link">
+                    <div data-i18n="Without menu">Listing Ville</div>
+                  </a>
+                </li>
+                <li class="menu-item <?php if($page=="modifyCities"){echo 'active';} ?>">
+                  <a href="/pages/modifyCities.php" class="menu-link">
+                    <div data-i18n="Without menu">Modify Ville</div>
+                  </a>
+                </li>
+                
+                
+              </ul>
             </li>
+            
+
+
+
+
+
+
             <li class="menu-item">
               <a href="icons-ri.html" class="menu-link">
                 <i class="menu-icon tf-icons ri-remixicon-line"></i>
