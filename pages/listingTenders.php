@@ -59,7 +59,8 @@
 
               <?php
                   $logo = "../assets/img/logo/logo.jpg";
-                  $page ="";
+                  $page ="listingTenders";
+                  $mainpage="Tenders";
                   include_once('../component/sideMenu.php') ; 
               ?>
               <!-- / Menu -->
@@ -82,7 +83,7 @@
                             <div class="card-header d-flex align-items-center justify-content-between">
                                 <h5 class="mb-0 text-primary">Les Appels d'Offres (3252)</h5>
                                 <div>
-                                    <small class="btn btn-primary">Publier un appel d'offres</small> <br/>
+                                    <a href="./postTenders.php" class="btn btn-primary">Publier un appel d'offres</a> <br/>
                                 </div>
                             </div>
                             
@@ -111,7 +112,7 @@
                                                 <td></td>
                                                 <td>28 Aout 24</td>
                                                 <td>oui</td>
-                                                <td><button class="text-success border-none"><i class="ri-edit-2-line"></i></button></td>
+                                                <td><a href="./modifyTenders.php" class="text-success border-none"><i class="ri-edit-2-line"></i></a></td>
                                                 <td><button class="text-danger border-none"><i class="ri-delete-bin-7-fill"></i></button></td>
                                             </tr>
                                           

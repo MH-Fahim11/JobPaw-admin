@@ -59,7 +59,8 @@
 
         <?php
             $logo = "../assets/img/logo/logo.jpg";
-            $page ="#";
+            $page ="postJobs";
+            $mainpage="Job";
             include_once('../component/sideMenu.php') ; 
         ?>
         <!-- / Menu -->

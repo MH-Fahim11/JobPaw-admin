@@ -59,7 +59,8 @@
 
         <?php
             $logo = "../assets/img/logo/logo.jpg";
-            $page ="istingFAQ";
+            $page ="listingFAQ";
+            $mainpage="FAQ";
             include_once('../component/sideMenu.php') ; 
         ?>
         <!-- / Menu -->
@@ -87,7 +88,7 @@
                     <p>
                         <b>Q:</b><span class="text-primary">Pourquoi créer un Profil sur JobPaw.com ?</span> [ Profil ]
                         <a href=""><i class="ri-delete-bin-2-line text-danger"></i></a> |
-                        <a href=""><i class="ri-edit-2-fill "></i></a> |
+                        <a href="./modifyFAQ.php"><i class="ri-edit-2-fill "></i></a> |
                         <b > Actif : oui</b>
                     </p>
 
@@ -108,7 +109,7 @@
                     <p>
                         <b>Q:</b><span class="text-primary">Comment créer un profil sur JobPaw.com?</span> [ Profil ]
                         <a href=""><i class="ri-delete-bin-2-line text-danger"></i></a> |
-                        <a href=""><i class="ri-edit-2-fill "></i></a> |
+                        <a href="./modifyFAQ.php"><i class="ri-edit-2-fill "></i></a> |
                         <b > Actif : oui</b>
                     </p>
 
@@ -150,7 +151,7 @@
                     <p>
                         <b>Q:</b><span class="text-primary">Comment me connecter sur mon profil?</span> [ Profil ]
                         <a href=""><i class="ri-delete-bin-2-line text-danger"></i></a> |
-                        <a href=""><i class="ri-edit-2-fill "></i></a> |
+                        <a href="./modifyFAQ.php"><i class="ri-edit-2-fill "></i></a> |
                         <b > Actif : oui</b>
                     </p>
 
@@ -172,7 +173,7 @@
                     <p>
                         <b>Q:</b><span class="text-primary">Comment mettre à jour mon Profil?</span> [ Profil ]
                         <a href=""><i class="ri-delete-bin-2-line text-danger"></i></a> |
-                        <a href=""><i class="ri-edit-2-fill "></i></a> |
+                        <a href="./modifyFAQ.php"><i class="ri-edit-2-fill "></i></a> |
                         <b > Actif : oui</b>
                     </p>
 

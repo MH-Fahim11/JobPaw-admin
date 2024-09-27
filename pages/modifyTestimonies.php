@@ -59,7 +59,8 @@
 
         <?php
             $logo = "../assets/img/logo/logo.jpg";
-            $page ="#";
+            $page ="modifyTestimonies";
+            $mainpage="Testimonies";
             include_once('../component/sideMenu.php') ; 
         ?>
         <!-- / Menu -->

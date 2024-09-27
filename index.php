@@ -81,14 +81,14 @@
             <div class="container-xxl flex-grow-1 container-p-y">
               <div class="row gy-6">
                 <!-- Congratulations card -->
-                <!-- <div class="col-md-12 col-lg-4">
+                <div class="col-md-12 col-lg-4">
                   <div class="card">
                     <div class="card-body text-nowrap">
-                      <h5 class="card-title mb-0 flex-wrap text-nowrap">Congratulations Norris! 🎉</h5>
-                      <p class="mb-2">Best seller of the month</p>
+                      <h5 class="card-title mb-0 flex-wrap text-nowrap">Congratulations Bob! 🎉</h5>
+                      <p class="mb-2">Best Contribiter of the month</p>
                       <h4 class="text-primary mb-0">$42.8k</h4>
                       <p class="mb-2">78% of target 🚀</p>
-                      <a href="javascript:;" class="btn btn-sm btn-primary">View Sales</a>
+                      <!-- <a href="javascript:;" class="btn btn-sm btn-primary">View Sales</a> -->
                     </div>
                     <img
                       src="../assets/img/illustrations/trophy.png"
@@ -96,11 +96,11 @@
                       width="83"
                       alt="view sales" />
                   </div>
-                </div> -->
+                </div>
                 <!--/ Congratulations card -->
 
                 <!-- Transactions -->
-                <!-- <div class="col-lg-8">
+                <div class="col-lg-8">
                   <div class="card h-100">
                     <div class="card-header">
                       <div class="d-flex align-items-center justify-content-between">
@@ -181,11 +181,11 @@
                       </div>
                     </div>
                   </div>
-                </div> -->
+                </div>
                 <!--/ Transactions -->
 
                 <!-- Weekly Overview Chart -->
-                <!-- <div class="col-xl-4 col-md-6">
+                <div class="col-xl-4 col-md-6">
                   <div class="card">
                     <div class="card-header">
                       <div class="d-flex justify-content-between">
@@ -221,11 +221,11 @@
                       </div>
                     </div>
                   </div>
-                </div> -->
+                </div>
                 <!--/ Weekly Overview Chart -->
 
                 <!-- Total Earnings -->
-                <!-- <div class="col-xl-4 col-md-6">
+                <div class="col-xl-4 col-md-6">
                   <div class="card">
                     <div class="card-header d-flex align-items-center justify-content-between">
                       <h5 class="card-title m-0 me-2">Total Earning</h5>
@@ -330,14 +330,14 @@
                       </ul>
                     </div>
                   </div>
-                </div> -->
+                </div>
                 <!--/ Total Earnings -->
 
                 <!-- Four Cards -->
                 <div class="col-xl-4 col-md-6">
                   <div class="row gy-6">
                     <!-- Total Profit line chart -->
-                    <!-- <div class="col-sm-6">
+                    <div class="col-sm-6">
                       <div class="card h-100">
                         <div class="card-header pb-0">
                           <h4 class="mb-0">$86.4k</h4>
@@ -347,18 +347,18 @@
                           <h6 class="text-center mb-0">Total Profit</h6>
                         </div>
                       </div>
-                    </div> -->
+                    </div>
                     <!--/ Total Profit line chart -->
                     <!-- Total Profit Weekly Project -->
-                    <!-- <div class="col-sm-6">
+                    <div class="col-sm-6">
                       <div class="card h-100">
                         <div class="card-header d-flex align-items-center justify-content-between">
                           <div class="avatar">
                             <div class="avatar-initial bg-secondary rounded-circle shadow-xs">
                               <i class="ri-pie-chart-2-line ri-24px"></i>
                             </div>
-                          </div> -->
-                          <!-- <div class="dropdown">
+                          </div>
+                          <div class="dropdown">
                             <button
                               class="btn text-muted p-0"
                               type="button"
@@ -384,10 +384,10 @@
                           <small>Weekly Project</small>
                         </div>
                       </div>
-                    </div> -->
+                    </div>
                     <!--/ Total Profit Weekly Project -->
                     <!-- New Yearly Project -->
-                    <!-- <div class="col-sm-6">
+                    <div class="col-sm-6">
                       <div class="card h-100">
                         <div class="card-header d-flex align-items-center justify-content-between">
                           <div class="avatar">
@@ -421,10 +421,10 @@
                           <small>Yearly Project</small>
                         </div>
                       </div>
-                    </div> -->
+                    </div>
                     <!--/ New Yearly Project -->
                     <!-- Sessions chart -->
-                    <!-- <div class="col-sm-6">
+                    <div class="col-sm-6">
                       <div class="card h-100">
                         <div class="card-header pb-0">
                           <h4 class="mb-0">2,856</h4>
@@ -434,14 +434,14 @@
                           <h6 class="text-center mb-0">Sessions</h6>
                         </div>
                       </div>
-                    </div> -->
+                    </div>
                     <!--/ Sessions chart -->
                   </div>
                 </div>
                 <!--/ Total Earning -->
 
                 <!-- Sales by Countries -->
-                <!-- <div class="col-xl-4 col-md-6">
+                <div class="col-xl-4 col-md-6">
                   <div class="card h-100">
                     <div class="card-header d-flex align-items-center justify-content-between">
                       <h5 class="card-title m-0 me-2">Sales by Countries</h5>
@@ -560,11 +560,11 @@
                       </div>
                     </div>
                   </div>
-                </div> -->
+                </div>
                 <!--/ Sales by Countries -->
 
                 <!-- Deposit / Withdraw -->
-                <!-- <div class="col-xl-8">
+                <div class="col-xl-8">
                   <div class="card-group">
                     <div class="card mb-0">
                       <div class="card-body card-separator">
@@ -761,7 +761,7 @@
                       </div>
                     </div>
                   </div>
-                </div> -->
+                </div>
                 <!-- Deposit / Withdraw -->
 
                 <!-- Data Tables -->
@@ -957,9 +957,39 @@
             <!-- / Content -->
 
             <!-- Footer -->
-            <?php
-            include_once('./component/footer.php'); 
-            ?>
+            <footer class="content-footer footer bg-footer-theme">
+              <div class="container-xxl">
+                <div
+                  class="footer-container d-flex align-items-center justify-content-between py-4 flex-md-row flex-column">
+                  <div class="text-body mb-2 mb-md-0">
+                    ©
+                    <script>
+                      document.write(new Date().getFullYear());
+                    </script>
+                    , made with <span class="text-danger"><i class="tf-icons ri-heart-fill"></i></span> by
+                    <a href="https://themeselection.com" target="_blank" class="footer-link">ThemeSelection</a>
+                  </div>
+                  <div class="d-none d-lg-inline-block">
+                    <a href="https://themeselection.com/license/" class="footer-link me-4" target="_blank">License</a>
+                    <a href="https://themeselection.com/" target="_blank" class="footer-link me-4">More Themes</a>
+
+                    <a
+                      href="https://demos.themeselection.com/materio-bootstrap-html-admin-template/documentation/"
+                      target="_blank"
+                      class="footer-link me-4"
+                      >Documentation</a
+                    >
+
+                    <a
+                      href="https://github.com/themeselection/materio-bootstrap-html-admin-template-free/issues"
+                      target="_blank"
+                      class="footer-link"
+                      >Support</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </footer>
             <!-- / Footer -->
 
             <div class="content-backdrop fade"></div>

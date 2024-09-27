@@ -59,7 +59,8 @@
 
         <?php
             $logo = "../assets/img/logo/logo.jpg";
-            $page ="#";
+            $page ="modifyDomaines";
+            $mainpage="Domaines";
             include_once('../component/sideMenu.php') ; 
         ?>
         <!-- / Menu -->

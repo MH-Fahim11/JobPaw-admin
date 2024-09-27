@@ -59,7 +59,8 @@
 
         <?php
             $logo = "../assets/img/logo/logo.jpg";
-            $page ="#";
+            $page ="postAds";
+            $mainpage="asvertising";
             include_once('../component/sideMenu.php') ; 
         ?>
         <!-- / Menu -->
@@ -117,7 +118,9 @@
                                                 <option value="2">Two</option>
                                                 <option value="3">Three</option>
                                             </select>
+                                            <a href="./addCompanyAds.php">Ajouter une compagnie</a>
                                         </div>
+                                        
                                     </div>
                                     <div class="row mb-4">
                                         <!-- Input field and label that will change dynamically -->
@@ -130,6 +133,7 @@
                                                 <option value="2">Two</option>
                                                 <option value="3">Three</option>
                                             </select>
+                                            <a href="./addPageAds.php">Ajouter une page</a>
                                         </div>
                                     </div>
                                     <div class="row mb-4">

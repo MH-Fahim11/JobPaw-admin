@@ -59,7 +59,8 @@
 
               <?php
                   $logo = "../assets/img/logo/logo.jpg";
-                  $page ="";
+                  $page ="listingTraining";
+                  $mainpage="Training";
                   include_once('../component/sideMenu.php') ; 
               ?>
               <!-- / Menu -->
@@ -82,7 +83,7 @@
                             <div class="card-header d-flex align-items-center justify-content-between">
                                 <h5 class="mb-0 text-primary">Les séminaires (166)</h5>
                                 <div>
-                                    <small class="btn btn-primary">Ajouter un séminaire</small> <br/>
+                                    <a href="./postTraining.php" class="btn btn-primary">Ajouter un séminaire</a> <br/>
                                 </div>
                             </div>
                             

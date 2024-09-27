@@ -59,7 +59,8 @@
 
               <?php
                   $logo = "../assets/img/logo/logo.jpg";
-                  $page ="#";
+                  $page ="listingArticles";
+                  $mainpage="Articles";
                   include_once('../component/sideMenu.php') ; 
               ?>
               <!-- / Menu -->
@@ -141,7 +142,7 @@
                                                    <a href="">2</a> <br/>
                                                    <a href="">3</a>
                                                 </td>
-                                                <td><span class="text-primary">La meilleure choix de resau en 2024</span> <p>En 2024 le resau est devenu un espace ou les peuvent s'enrichir ou du
+                                                <td><a href="./detailsArticles.php" class="text-primary">La meilleure choix de resau en 2024</a> <p>En 2024 le resau est devenu un espace ou les peuvent s'enrichir ou du
                                                 moins trouver leurs confors pour se divertir , cet article vous permetra de
                                                 savoir les divers facons pour utiliser les resaux pour...</p> 
                                                 </td>

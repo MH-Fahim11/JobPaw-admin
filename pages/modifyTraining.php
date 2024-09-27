@@ -59,7 +59,8 @@
 
         <?php
             $logo = "../assets/img/logo/logo.jpg";
-            $page ="#";
+            $page ="modifyTraining";
+            $mainpage="Training";
             include_once('../component/sideMenu.php') ; 
         ?>
         <!-- / Menu -->

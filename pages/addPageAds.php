@@ -60,7 +60,7 @@
         <?php
             $logo = "../assets/img/logo/logo.jpg";
             $page ="addPageAds";
-            $mainpage=="asvertising";
+            $mainpage="asvertising";
             include_once('../component/sideMenu.php') ; 
         ?>
         <!-- / Menu -->
@@ -80,7 +80,14 @@
                 <div class="col-xxl">
                   <div class="card mb-6">
                     <div class="card-header d-flex align-items-center justify-content-between">
-                    <h5 class="mb-0 text-primary">Advertising Page Management</h5>
+                      <h5 class="mb-0 text-primary">Advertising Page Management</h5>
+                      <div>
+                        <ul>
+                          <li> <a href="./postAds.php">Ajouter un advertising</a></li>
+                          <li> <a href="./addTypeAds.php">Type d'advertising</a></li>
+                          <li> <a href="./listingCompanies.php">Les compagnies</a></li>
+                        </ul>
+                      </div>
                       
                       <!-- <small class="text-muted float-end">Default label</small> -->
                     </div>

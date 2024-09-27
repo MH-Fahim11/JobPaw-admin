@@ -59,7 +59,8 @@
 
               <?php
                   $logo = "../assets/img/logo/logo.jpg";
-                  $page ="";
+                  $page ="listingUsers";
+                  $mainpage="Utilisateur";
                   include_once('../component/sideMenu.php') ; 
               ?>
               <!-- / Menu -->
@@ -191,17 +192,19 @@
                                         <tr>
                                             <td>1</td>
                                             <td>
-                                                <div class="d-flex justify-content-start align-items-center user-name">
-                                                    <div class="avatar-wrapper">
-                                                        <div class="avatar me-2">
-                                                            <span class="avatar-initial rounded-circle bg-label-dark">GG</span>
+                                                <a href="./detailsUsers.php">
+                                                    <div class="d-flex justify-content-start align-items-center user-name">
+                                                        <div class="avatar-wrapper">
+                                                            <div class="avatar me-2">
+                                                                <span class="avatar-initial rounded-circle bg-label-dark">GG</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex flex-column">
+                                                            <span class="emp_name text-truncate h6 mb-0">Glyn Giacoppo</span>
+                                                            <small class="emp_post text-truncate">Software Test Engineer</small>
                                                         </div>
                                                     </div>
-                                                    <div class="d-flex flex-column">
-                                                        <span class="emp_name text-truncate h6 mb-0">Glyn Giacoppo</span>
-                                                        <small class="emp_post text-truncate">Software Test Engineer</small>
-                                                    </div>
-                                                </div>
+                                                </a>
                                             </td>
                                             <td></td>
                                             <td>informations@esih.edu</td>
@@ -213,17 +216,19 @@
                                         <tr>
                                             <td>1</td>
                                             <td>
-                                                <div class="d-flex justify-content-start align-items-center user-name">
-                                                    <div class="avatar-wrapper">
-                                                        <div class="avatar me-2">
-                                                            <img src="../../assets/img/avatars/5.png" alt="Avatar" class="rounded-circle">
+                                                <a href="./detailsUsers-prof.php">
+                                                    <div class="d-flex justify-content-start align-items-center user-name">
+                                                        <div class="avatar-wrapper">
+                                                            <div class="avatar me-2">
+                                                                <img src="../../assets/img/avatars/5.png" alt="Avatar" class="rounded-circle">
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex flex-column">
+                                                            <span class="emp_name text-truncate h6 mb-0">Evangelina Carnock</span>
+                                                            <small class="emp_post text-truncate">Cost Accountant</small>
                                                         </div>
                                                     </div>
-                                                    <div class="d-flex flex-column">
-                                                        <span class="emp_name text-truncate h6 mb-0">Evangelina Carnock</span>
-                                                        <small class="emp_post text-truncate">Cost Accountant</small>
-                                                    </div>
-                                                </div>
+                                                </a>
                                             </td>
                                             <td></td>
                                             <td>informations@esih.edu</td>

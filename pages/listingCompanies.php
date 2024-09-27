@@ -59,7 +59,7 @@
 
               <?php
                   $logo = "../assets/img/logo/logo.jpg";
-                  $page ="#";
+                  $page ="compagnie";
                   include_once('../component/sideMenu.php') ; 
               ?>
               <!-- / Menu -->
@@ -133,7 +133,7 @@
                                         <tbody>
                                             <tr>
                                                 <td>
-                                                   <a href="">Conception-Execution-
+                                                   <a href="/pages/detailsCompanies.php">Conception-Execution-
                                                    Etude-Supervision</a>
                                                 </td>
                                                 <td>
@@ -147,7 +147,7 @@
                                                 <td><a href="">larubin80@gmail.com</a></td>
                                                 <td>2y$10$NmFMG9E9Jz2TQRkHMbEtouleFDSjXoecZAS</td>
                                                 
-                                                <td><button class="text-danger border-none"><i class="ri-delete-bin-7-fill"></i></button></td>
+                                                <td><a href="/pages/listingCompanies.php" class="text-danger border-none"><i class="ri-delete-bin-7-fill"></i></a></td>
                                             </tr>
                                             
 

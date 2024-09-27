@@ -59,7 +59,8 @@
 
         <?php
             $logo = "../assets/img/logo/logo.jpg";
-            $page ="#";
+            $page ="postStrategies";
+            $mainpage="Strategies";
             include_once('../component/sideMenu.php') ; 
         ?>
         <!-- / Menu -->
@@ -92,6 +93,8 @@
                                                 <option value="">- - Choisir - -</option>
                                                 <option value="Continent">1</option>
                                             </select> 
+                                            <a href="./addRubrique.php">Ajouter une rubrique</a> | 
+                                            <a href="./addSubRubrique.php">Ajouter une sous-rubrique</a>
                                         </div>
                                         
                                     </div>
@@ -99,6 +102,7 @@
                                         <label class="col-sm-2 col-form-label" for="basic-default-name">Stratégie de Pays</label>
                                         <div class="col-sm-10">
                                             <input type="text" class="form-control" id="basic-default-name" placeholder="Stratégie de Pays" />
+
                                         </div>
                                     </div>
                                     <div class="row mb-4">

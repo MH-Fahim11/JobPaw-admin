@@ -98,8 +98,12 @@
                     <div class="card-body ">
                         <div class="row">
                           <div>
-                            <a href="">- Accédér au profil de cet utilisateur</a> <br/>
-                            <a href="">- Modifier le courriel</a> <br/>
+                            <ul>
+                              <li><a href="">Accédér au profil de cet utilisateur</a></li>
+                              <li><a href="./modifyMailUsers.php">Modifier le courriel</a></li>
+                            </ul>
+                             <br/>
+                             <br/>
                           </div>
                         </div>
                       <div>

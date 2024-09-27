@@ -51,6 +51,7 @@
     <script src="../assets/js/config.js"></script>
   </head>
 
+  
   <body>
     <!-- Layout wrapper -->
     <div class="layout-wrapper layout-content-navbar">
@@ -59,7 +60,8 @@
 
         <?php
             $logo = "../assets/img/logo/logo.jpg";
-            $page ="#";
+            $page ="addDomaines";
+            $mainpage="Domaines";
             include_once('../component/sideMenu.php') ; 
         ?>
         <!-- / Menu -->

@@ -51,6 +51,7 @@
     <script src="../assets/js/config.js"></script>
   </head>
 
+  
   <body>
     <!-- Layout wrapper -->
     <div class="layout-wrapper layout-content-navbar">
@@ -78,8 +79,20 @@
           
             <div class="col-md-12">
              <div class="card">
-               <h5 class="card-header">Advertising Company Management</h5>
-               <small></small>
+               
+                    <div class="card mb-6">
+                    <div class="card-header d-flex align-items-center justify-content-between">
+                      <h5 class="mb-0 text-primary">Advertising Company Management</h5>
+                      <div>
+                        <ul>
+                          <li> <a href="./postAds.php">Ajouter un advertising</a></li>
+                          <li> <a href="./addTypeAds.php">Type d'advertising</a></li>
+                          <li> <a href="./listingCompanies.php">Les compagnies</a></li>
+                        </ul>
+                      </div>
+                      
+                      <!-- <small class="text-muted float-end">Default label</small> -->
+                    </div>
                 <div class="card-body">
 
                     <div>

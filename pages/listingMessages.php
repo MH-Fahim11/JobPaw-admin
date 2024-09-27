@@ -59,7 +59,8 @@
 
               <?php
                   $logo = "../assets/img/logo/logo.jpg";
-                  $page ="";
+                  $page ="listingMessages";
+                  $mainpage="messages";
                   include_once('../component/sideMenu.php') ; 
               ?>
               <!-- / Menu -->
@@ -100,7 +101,7 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td><a href="">XYX</a></td>
+                                                <td><a href="./detailsMessages.php">XYX</a></td>
                                                 <td>Nouveau Job attend votre verification</td>
                                                 <td>28 Aout 24</td>
                                                 <td><button class="text-danger border-none"><i class="ri-delete-bin-7-fill"></i></button></td>
@@ -111,6 +112,46 @@
                                             
                                         </tbody>
                                     </table>
+                                    <div class="row mt-4">
+                                        <div class="col-sm-12 col-md-6">
+                                            <div class="dataTables_info" id="DataTables_Table_0_info" role="status" aria-live="polite">
+                                                Showing 1 to 7 of 100 entries
+                                            </div>
+                                        </div>
+                                            <div class="col-sm-12 col-md-6">
+                                                <div class="dataTables_paginate paging_simple_numbers" id="DataTables_Table_0_paginate">
+                                                        <ul class="pagination">
+                                                            <li class="paginate_button page-item previous disabled" id="DataTables_Table_0_previous">
+                                                                <a aria-controls="DataTables_Table_0" aria-disabled="true" role="link" data-dt-idx="previous" tabindex="-1" class="page-link">Previous</a>
+                                                            </li>
+                                                            <li class="paginate_button page-item active">
+                                                                <a href="#" aria-controls="DataTables_Table_0" role="link" aria-current="page" data-dt-idx="0" tabindex="0" class="page-link">1</a>
+                                                            </li>
+                                                            <li class="paginate_button page-item ">
+                                                                <a href="#" aria-controls="DataTables_Table_0" role="link" data-dt-idx="1" tabindex="0" class="page-link">2</a>
+                                                            </li>
+                                                            <li class="paginate_button page-item ">
+                                                                <a href="#" aria-controls="DataTables_Table_0" role="link" data-dt-idx="2" tabindex="0" class="page-link">3</a>
+                                                            </li>
+                                                            <li class="paginate_button page-item ">
+                                                                <a href="#" aria-controls="DataTables_Table_0" role="link" data-dt-idx="3" tabindex="0" class="page-link">4</a>
+                                                            </li>
+                                                            <li class="paginate_button page-item ">
+                                                                <a href="#" aria-controls="DataTables_Table_0" role="link" data-dt-idx="4" tabindex="0" class="page-link">5</a>
+                                                            </li>
+                                                            <li class="paginate_button page-item disabled" id="DataTables_Table_0_ellipsis">
+                                                                <a aria-controls="DataTables_Table_0" aria-disabled="true" role="link" data-dt-idx="ellipsis" tabindex="-1" class="page-link">…</a>
+                                                            </li>
+                                                            <li class="paginate_button page-item ">
+                                                                <a href="#" aria-controls="DataTables_Table_0" role="link" data-dt-idx="14" tabindex="0" class="page-link">15</a>
+                                                            </li>
+                                                            <li class="paginate_button page-item next" id="DataTables_Table_0_next">
+                                                                <a href="#" aria-controls="DataTables_Table_0" role="link" data-dt-idx="next" tabindex="0" class="page-link">Next</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                          </div>
                                 </div>
                             </div>
                         </div>

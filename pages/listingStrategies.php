@@ -59,7 +59,8 @@
 
               <?php
                   $logo = "../assets/img/logo/logo.jpg";
-                  $page ="";
+                  $page ="listingStrategies";
+                  $mainpage="Strategies";
                   include_once('../component/sideMenu.php') ; 
               ?>
               <!-- / Menu -->
@@ -82,7 +83,7 @@
                             <div class="card-header d-flex align-items-center justify-content-between">
                                 <h5 class="mb-0 text-primary">Les Stratégies (455)</h5>
                                 <div>
-                                    <small class="btn btn-primary">Ajouter une strategie</small> <br/>
+                                    <a href="./postStrategies.php" class="btn btn-primary">Ajouter une strategie</a> <br/>
                                 </div>
                             </div>
                         

@@ -59,7 +59,8 @@
 
               <?php
                   $logo = "../assets/img/logo/logo.jpg";
-                  $page ="";
+                  $page ="listingAds";
+                  $mainpage="asvertising";
                   include_once('../component/sideMenu.php') ; 
               ?>
               <!-- / Menu -->
@@ -81,11 +82,12 @@
                     <h5 class="card-header text-primary">Advertising Management</h5>
                     <div class="card-body">
                       <p>175 Advertising</p>
-                      <p>- <a href="">Ajouter un advertising</a></p>
-                      <p>- <a href="">Type d'advertising</a></p>
-                      <p>- <a href="">Les pages</a></p>
-                      <p>- <a href="">Les compagnies</a></p>
-                      
+                      <ul>
+                        <li><a href="./postAds.php">Ajouter un advertising</a></li>
+                        <li><a href="./addTypeAds.php">Type d'advertising</a></li>
+                        <li><a href="./addPageAds.php">Les pages</a></li>
+                        <li><a href="./listingCompanies.php">Les compagnies</a></li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -138,7 +140,7 @@
                                         <tbody>
                                             <tr>
                                                 <td class="  dt-checkboxes-cell"><input type="checkbox" class="dt-checkboxes form-check-input"></td>
-                                                <td>212 <span class="text-primary">Agro G</span> <button class="border-none text-success"><i class="ri-edit-2-line"></i></button></td>
+                                                <td>212 <a href="./detailsAds.php" class="text-primary">Agro G</a> <a href="./modifyAds.php" class="border-none text-success"><i class="ri-edit-2-line"></i></a></td>
                                                 <td>Bannière principale</td>
                                                 <td><a href=""> ../index.php</a></td>
                                                 <td>non</td>
@@ -146,7 +148,7 @@
                                             </tr>
                                             <tr>
                                                 <td class="  dt-checkboxes-cell"><input type="checkbox" class="dt-checkboxes form-check-input"></td>
-                                                <td>212 <span class="text-primary">Agro G</span> <button class="border-none text-success"><i class="ri-edit-2-line"></i></button></td>
+                                                <td>212 <a href="./detailsAds.php" class="text-primary">Agro G</a> <a href="./modifyAds.php" class="border-none text-success"><i class="ri-edit-2-line"></i></a></td>
                                                 <td>Bannière principale</td>
                                                 <td><a href=""> ../index.php</a></td>
                                                 <td>non</td>
@@ -154,12 +156,14 @@
                                             </tr>
                                             <tr>
                                                 <td class="  dt-checkboxes-cell"><input type="checkbox" class="dt-checkboxes form-check-input"></td>
-                                                <td>212 <span class="text-primary">Agro G</span> <button class="border-none text-success"><i class="ri-edit-2-line"></i></button></td>
+                                                <td>212 <a href="./detailsAds.php" class="text-primary">Agro G</a> <a href="./modifyAds.php" class="border-none text-success"><i class="ri-edit-2-line"></i></a></td>
                                                 <td>Bannière principale</td>
                                                 <td><a href=""> ../index.php</a></td>
                                                 <td>non</td>
                                                 <td><button class="text-danger border-none"><i class="ri-delete-bin-7-fill"></i></button></td>
                                             </tr>
+                                            
+                                           
                                             
                                         </tbody>
                                     </table>

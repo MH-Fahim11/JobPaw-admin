@@ -59,7 +59,8 @@
 
               <?php
                   $logo = "../assets/img/logo/logo.jpg";
-                  $page ="";
+                  $page ="listingJobs";
+                  $mainpage="Job";
                   include_once('../component/sideMenu.php') ; 
               ?>
               <!-- / Menu -->
@@ -82,14 +83,14 @@
                             <div class="card-header d-flex align-items-center justify-content-between">
                                 <h5 class="mb-0 text-primary">Les offres d'emploi (15725)</h5>
                                 <div>
-                                    <small class="btn btn-primary">Publier une offre d'emploi</small> <br/>
+                                    <a href="./postJobs.php" class="btn btn-primary">Publier une offre d'emploi</a> <br/>
                                 </div>
                             </div>
                             
                             <div class="card-body">
                                 <div class=" d-flex justify-content-between m-4">
-                                    <button class="btn btn-primary">Les offres d'emploi en jaunes ne sont pas publiées</button>
-                                    <button class="btn btn-primary">On a demandé la suppression des offres en rouge</button>
+                                    <button class="btn btn-secondary">Les offres d'emploi en jaunes ne sont pas publiées</button>
+                                    <button class="btn btn-secondary">On a demandé la suppression des offres en rouge</button>
                                 </div>
                                 <div class="table-responsive text-nowrap">
                                     <table class="table table-bordered">
@@ -105,7 +106,7 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td><i class="ri-gemini-fill text-danger"></i> <a href="">Fondation</a></td>
+                                                <td><i class="ri-gemini-fill text-danger"></i> <a href="./detailsJobs.php">Fondation</a></td>
                                                 <td>Monitoring, Evaluation</td>
                                                 <td>Sciences Informatiques</td>
                                                 <td>28 Aout 24</td>

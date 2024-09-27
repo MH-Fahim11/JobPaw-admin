@@ -115,6 +115,7 @@
                                     <option value="2">Two</option>
                                     <option value="3">Three</option>
                                 </select>
+                                <a href="./addCompanyAds.php">Ajouter une compagnie</a>
                             </div>
                         </div>
 
@@ -122,11 +123,11 @@
                             <label for="smallSelect" class=" col-sm-2 col-form-label">Page <span class=" text-danger">*</span></label>
                             <div class="col-sm-10">
                                 <select id="smallSelect" class="form-select ">
-
                                     <option value="1">One</option>
                                     <option value="2">Two</option>
                                     <option value="3">Three</option>
                                 </select>
+                                <a href="./addPageAds.php">Ajouter une page</a>
                             </div>
                         </div>
 
@@ -134,11 +135,11 @@
                             <label for="smallSelect" class=" col-sm-2 col-form-label">Type <span class=" text-danger">*</span></label>
                             <div class="col-sm-10">
                                 <select id="smallSelect" class="form-select ">
-
                                     <option value="1">One</option>
                                     <option value="2">Two</option>
                                     <option value="3">Three</option>
                                 </select>
+                                <a href="./addTypeAds.php">Ajouter un type </a>| <a href="./listingAds.php">Voir les types</a>
                             </div>
                         </div>
 

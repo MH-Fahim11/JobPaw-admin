@@ -59,7 +59,8 @@
 
         <?php
             $logo = "../assets/img/logo/logo.jpg";
-            $page ="#";
+            $page ="modifyUniversities";
+            $mainpage="Etablissement";
             include_once('../component/sideMenu.php') ; 
         ?>
         <!-- / Menu -->

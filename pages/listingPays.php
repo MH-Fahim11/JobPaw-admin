@@ -59,7 +59,8 @@
 
               <?php
                   $logo = "../assets/img/logo/logo.jpg";
-                  $page ="";
+                  $page ="listingPays";
+                  $mainpage="Pays";
                   include_once('../component/sideMenu.php') ; 
               ?>
               <!-- / Menu -->
@@ -82,7 +83,7 @@
                             <div class="card-header d-flex align-items-center justify-content-between">
                                 <h5 class="mb-0 text-primary">Liste de pays (184)</h5>
                                 <div>
-                                    <small class="btn btn-primary">Ajouter un pays</small> <br/>
+                                    <a href="./addPays.php" class="btn btn-primary">Ajouter un pays</a> <br/>
                                 </div>
                             </div>
 
@@ -103,7 +104,7 @@
                                         <tbody>
                                             <tr>
                                                 <td>1</td>
-                                                <td>Haiti</td>
+                                                <td><a href="./modifyPays.php">Haiti</a></td>
                                                 <td>Amerique</td>
                                                 <td>oui</td>
                                                 <td><button class="text-danger border-none"><i class="ri-delete-bin-7-fill"></i></button></td>

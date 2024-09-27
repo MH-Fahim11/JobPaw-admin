@@ -83,7 +83,7 @@
                                 <p>- Full Acces au CV : <b>non</b></p>
                                 <p>- Username : <b>xyz@gmail.com</b></p>
                                 <p>- Mot de passe : <b>$2y$10$Xc2CA4oI</b></p>
-                                <p>-<a href="">Acceder à son profil</a></p>
+                                <p>-<a href="/pages/modifyCompanies.php">Acceder à son profil</a></p>
                             </div>
                             
                         </div>

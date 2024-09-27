@@ -59,7 +59,8 @@
 
         <?php
             $logo = "../assets/img/logo/logo.jpg";
-            $page ="#";
+            $page ="modifyArticles";
+            $mainpage="Articles";
             include_once('../component/sideMenu.php') ; 
         ?>
         <!-- / Menu -->
@@ -79,7 +80,7 @@
                     <div class="col-xxl">
                         <div class="card mb-6">
                             <div class="card-header d-flex align-items-center justify-content-between">
-                                <h5 class="mb-0 text-primary">Ajouter un Advertising</h5>
+                                <h5 class="mb-0 text-primary">Modify un Advertising</h5>
                             
                             <!-- <small class="text-muted float-end">Default label</small> -->
                             </div>

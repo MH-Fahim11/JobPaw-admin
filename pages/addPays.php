@@ -42,8 +42,6 @@
     <link rel="stylesheet" href="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
     <link rel="stylesheet" href="../assets/vendor/libs/apex-charts/apex-charts.css" />
 
-    <!-- Page CSS -->
-
     <!-- Helpers -->
     <script src="../assets/vendor/js/helpers.js"></script>
     <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
@@ -60,8 +58,10 @@
         <?php
             $logo = "../assets/img/logo/logo.jpg";
             $page ="addPyas";
+            $mainpage="Pays";
             include_once('../component/sideMenu.php') ; 
         ?>
+
         <!-- / Menu -->
 
         <!-- Layout container -->

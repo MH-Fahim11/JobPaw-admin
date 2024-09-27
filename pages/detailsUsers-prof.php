@@ -99,10 +99,14 @@
                     <div class="card-body ">
                         <div class="row">
                           <div>
-                            <a href="">- Accédér au profil de cet utilisateur</a> <br/>
-                            <a href="">- Modifier le courriel</a> <br/>
-                            <a href="">- Mettre le CV au top</a> <br/>
-                            <a href="">- Réinitialiser les positions de CV</a>
+                            <ul>
+                              <li><a href="">Accédér au profil de cet utilisateur</a></li>
+                              <li><a href="./modifyMailUsers.php">Modifier le courriel</a></li>
+                              <li><a href="">Mettre le CV au top</a></li>
+                              <li><a href="">Réinitialiser les positions de CV</a></li>
+                            </ul>
+                             
+                            
                           </div>
                         </div>
                       <div>

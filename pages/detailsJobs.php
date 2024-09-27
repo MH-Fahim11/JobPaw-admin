@@ -82,8 +82,12 @@
                     <h5 class="card-header text-primary">Facilitatrice Communautaire</h5>
                     <div class="card-body">
                       <p>Compagnie  : Mémoire/Travaux</p>
-                      <p>- Mettre le job au top</p>
-                      <p>- Réinitialiser les positions de job</p>
+                      <ul>
+                        <li><a href="">Mettre le job au top</a></li>
+                        <li><a href="">Réinitialiser les positions de job</a></li>
+                      </ul>
+                      
+                      
                     </div>
                   </div>
                 </div>
@@ -94,64 +98,15 @@
                     
                     <div class="card-body ">
                         <div class="row">
-                            <div class="col text-primary">Modifier OE-1 </div>
-                            <div class="col text-primary">Modifier OE-1 </div>
+                            <a href="./modifyJobs.php" class="col text-primary">Modifier OE-1 </a>
+                            <a href="./modifyJobs.php" class="col text-primary">Modifier OE-2 </a>
+                        </div>
+                        <div class="row">
+                            <a href="./modifyJobs.php" class="col text-primary">Modifier OE-3 </a>
+                            <a href="./modifyJobs.php" class="col text-primary">Modifier OE-4 </a>
                         </div>
                         
-                        <div class="row">
-                            <div class="col text-primary">Modifier OE-1 </div>
-                            <div class="col text-primary">Modifier OE-1 </div>
-                        </div>
                         
-                        <div class="row">
-                            <div class="col text-primary">Modifier OE-1 </div>
-                            <div class="col text-primary">Modifier OE-2 </div>
-                        </div>
-                        
-                        <div class="row">
-                            <div class="col text-primary">Modifier OE-3 </div>
-                            <div class="col text-primary">Modifier OE-4 </div>
-                        </div>
-                        
-                        <div class="row">
-                            <div class="col text-primary">Modifier OE-5 </div>
-                            <div class="col text-primary">Modifier OE-6 </div>
-                        </div>
-                        
-                        <div class="row">
-                            <div class="col text-primary">Modifier OE-7 </div>
-                            <div class="col text-primary">Modifier OE-8 </div>
-                        </div>
-                        
-                        <div class="row">
-                            <div class="col text-primary">Modifier OE-9 </div>
-                            <div class="col text-primary">Modifier OE-10 </div>
-                        </div>
-                        
-                        <div class="row">
-                            <div class="col text-primary">Modifier OE-11 </div>
-                            <div class="col text-primary">Modifier OE-12 </div>
-                        </div>
-                        <div class="row">
-                            <div class="col text-primary">Modifier OE-13 </div>
-                            <div class="col text-primary">Modifier OE-12 </div>
-                        </div>
-                        <div class="row">
-                            <div class="col text-primary">Modifier OE-14 </div>
-                            <div class="col text-primary">Modifier OE-15 </div>
-                        </div>
-                        <div class="row">
-                            <div class="col text-primary">Modifier OE-16 </div>
-                            <div class="col text-primary">Modifier OE-17 </div>
-                        </div>
-                        <div class="row">
-                            <div class="col text-primary">Modifier OE-18 </div>
-                            <div class="col text-primary">Modifier OE-19 </div>
-                        </div>
-                        <div class="row">
-                            <div class="col text-primary">Modifier OE-20 </div>
-                            <div class="col text-primary">Modifier OE-21 </div>
-                        </div>
                         
                       
                   </div>

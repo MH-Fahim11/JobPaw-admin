@@ -59,7 +59,8 @@
 
         <?php
             $logo = "../assets/img/logo/logo.jpg";
-            $page ="#";
+            $page ="postScholarships";
+            $mainpage="Scholarships";
             include_once('../component/sideMenu.php') ; 
         ?>
         <!-- / Menu -->
@@ -85,24 +86,20 @@
                             </div>
                             <div class="card-body">
                                 <form>
-                                <div class="row mb-4">
-                                    <label class=" col-sm-2 col-form-label" for="dropdown">Bourse offerte par</label>
-                                    <div class="col-sm-10">
-                                       <select id="dropdown" class="form-select ">
-                                            <option value="Pays">Pays</option>
-                                            <option value="Continent">Continent</option>
-                                            <option value="Organisation">Organisation Internationale</option>
-                                            <option value="Ambassade">Ambassade</option>
-                                        </select> 
+                                    <div class="row mb-4">
+                                        <label class=" col-sm-2 col-form-label" for="dropdown">Bourse offerte par</label>
+                                        <div class="col-sm-10">
+                                        <select id="dropdown" class="form-select ">
+                                                <option value="Pays">Pays</option>
+                                                <option value="Continent">Continent</option>
+                                                <option value="Organisation">Organisation Internationale</option>
+                                                <option value="Ambassade">Ambassade</option>
+                                            </select> 
+                                            
+                                        </div>
+                                       
+                                        
                                     </div>
-                                    
-                                </div>
-                                    
-
-                                   
-                
-
-
 
                                     <div class="row mb-4">
                                          <!-- Input field and label that will change dynamically -->
@@ -115,6 +112,7 @@
                                                 <option value="2">Two</option>
                                                 <option value="3">Three</option>
                                             </select>
+                                            <a id="link" href="./addPays.php">Ajouter un pays</a> 
                                         </div>
                                     </div>
 
@@ -209,18 +207,33 @@
     <script>
         // Get references to dropdown, input field, and label
         const dropdown = document.getElementById('dropdown');
-        const inputField = document.getElementById('inputField');
+        const link = document.getElementById('link');
         const inputLabel = document.getElementById('inputLabel');
 
         // Add event listener for dropdown selection changes
         dropdown.addEventListener('change', function() {
             const selectedOption = this.value;
 
-            // Change the input field value based on dropdown selection
-            // inputField.value = selectedOption;
-
-            // Change the input label text based on dropdown selection
+        
             inputLabel.textContent =  selectedOption;
+
+            if(selectedOption=="Organisation"){
+                // console.log(link);
+                link.textContent=" Ajouter une "+selectedOption;
+                link.href ="addOrganisations.php";
+            }else if(selectedOption=="Pays"){
+                link.textContent=" Ajouter une "+selectedOption;
+                link.href ="addPays.php";
+            }
+            else if(selectedOption=="Ambassade"){
+                link.textContent=" Ajouter une "+selectedOption;
+                link.href ="addEmbassies.php";
+            }
+            else if(selectedOption=="Continent"){
+                link.textContent="   ";
+                link.href =" ";
+                
+            }
         });
     </script>
     <!-- build:js assets/vendor/js/core.js -->

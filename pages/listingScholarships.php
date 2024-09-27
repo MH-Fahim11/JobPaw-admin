@@ -59,7 +59,8 @@
 
               <?php
                   $logo = "../assets/img/logo/logo.jpg";
-                  $page ="";
+                  $page ="listingScholarships";
+                  $mainpage="Scholarships";
                   include_once('../component/sideMenu.php') ; 
               ?>
               <!-- / Menu -->
@@ -111,7 +112,7 @@
                                                 <td><a href="">Bourses post-bac Excellence-Major aux Elèves du Lycée Francais</a></td>
                                                 <td><a href="">France</a></td>
                                                 <td>non</td>
-                                                <td><button class="text-success border-none"><i class="ri-edit-2-line"></i></button></td>
+                                                <td><a href="./modifyScholarships.php" class="text-success border-none"><i class="ri-edit-2-line"></i></a></td>
                                                 <td><button class="text-danger border-none"><i class="ri-delete-bin-7-fill"></i></button></td>
                                             </tr>
                                             
@@ -198,7 +199,7 @@
                                                 <td><a href="">Mobilité scientifique et universitaire (AUF)</a></td>
                                                 <td><a href="">Francophonie</a></td>
                                                 <td>non</td>
-                                                <td><button class="text-success border-none"><i class="ri-edit-2-line"></i></button></td>
+                                                <td><a href="./modifyScholarships.php" class="text-success border-none"><i class="ri-edit-2-line"></i></a></td>
                                                 <td><button class="text-danger border-none"><i class="ri-delete-bin-7-fill"></i></button></td>
                                             </tr>
                                             
@@ -242,7 +243,7 @@
                                                 <td><a href="">Programme de bourses d'été pour la diaspora américaine d'origine haïtienne</a></td>
                                                 <td><a href="">Ambassade de Haiti (Washington)</a></td>
                                                 <td>non</td>
-                                                <td><button class="text-success border-none"><i class="ri-edit-2-line"></i></button></td>
+                                                <td><a href="./modifyScholarships.php" class="text-success border-none"><i class="ri-edit-2-line"></i></a></td>
                                                 <td><button class="text-danger border-none"><i class="ri-delete-bin-7-fill"></i></button></td>
                                             </tr>
                                             
