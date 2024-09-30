@@ -91,6 +91,7 @@
                                                 <th>ID</th>
                                                 <th>Pays</th>
                                                 <th>Ville</th>
+                                                <th>Modif</th>
                                                 <th>Supprimer</th>
                                             </tr>
                                         </thead>
@@ -99,48 +100,56 @@
                                                 <td>212</td>
                                                 <td>Afrique du Sud</td>
                                                 <td>Pretoria</td>
+                                                <td><a href="./modifyCities.php" class="text-success border-none"><i class="ri-edit-2-line"></i></a></td>
                                                 <td><button class="text-danger border-none"><i class="ri-delete-bin-7-fill"></i></button></td>
                                             </tr>
                                             <tr>
                                                 <td>208</td>
                                                 <td>Allemagne</td>
                                                 <td>Berlin</td>
+                                                <td><a href="./modifyCities.php" class="text-success border-none"><i class="ri-edit-2-line"></i></a></td>
                                                 <td><button class="text-danger border-none"><i class="ri-delete-bin-7-fill"></i></button></td>
                                             </tr>
                                             <tr>
                                                 <td>37</td>
                                                 <td>Angleterre</td>
                                                 <td>Glasgow</td>
+                                                <td><a href="./modifyCities.php" class="text-success border-none"><i class="ri-edit-2-line"></i></a></td>
                                                 <td><button class="text-danger border-none"><i class="ri-delete-bin-7-fill"></i></button></td>
                                             </tr>
                                             <tr>
                                                 <td>36</td>
                                                 <td>Angleterre</td>
                                                 <td>Londres</td>
+                                                <td><a href="./modifyCities.php" class="text-success border-none"><i class="ri-edit-2-line"></i></a></td>
                                                 <td><button class="text-danger border-none"><i class="ri-delete-bin-7-fill"></i></button></td>
                                             </tr>
                                             <tr>
                                                 <td>38</td>
                                                 <td>Argentine</td>
                                                 <td>Buenos Aires</td>
+                                                <td><a href="./modifyCities.php" class="text-success border-none"><i class="ri-edit-2-line"></i></a></td>
                                                 <td><button class="text-danger border-none"><i class="ri-delete-bin-7-fill"></i></button></td>
                                             </tr>
                                             <tr>
                                                 <td>39</td>
                                                 <td>Belgique</td>
                                                 <td>Bruxelles</td>
+                                                <td><a href="./modifyCities.php" class="text-success border-none"><i class="ri-edit-2-line"></i></a></td>
                                                 <td><button class="text-danger border-none"><i class="ri-delete-bin-7-fill"></i></button></td>
                                             </tr>
                                             <tr>
                                                 <td>40</td>
                                                 <td>Bénin</td>
                                                 <td>Cotonou</td>
+                                                <td><a href="./modifyCities.php" class="text-success border-none"><i class="ri-edit-2-line"></i></a></td>
                                                 <td><button class="text-danger border-none"><i class="ri-delete-bin-7-fill"></i></button></td>
                                             </tr>
                                             <tr>
                                                 <td>202</td>
                                                 <td>Cameroun</td>
                                                 <td>Foumban</td>
+                                                <td><a href="./modifyCities.php" class="text-success border-none"><i class="ri-edit-2-line"></i></a></td>
                                                 <td><button class="text-danger border-none"><i class="ri-delete-bin-7-fill"></i></button></td>
                                             </tr>
                                     

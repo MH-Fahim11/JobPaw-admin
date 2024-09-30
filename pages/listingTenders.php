@@ -107,8 +107,8 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td><a href="">0 - Unité Technique d'Exécu</a></td>
-                                                <td><a href="">Sélectiond'un Consultant individuel</a></td>
+                                                <td><a href="detailsTenders.php">0 - Unité Technique d'Exécu</a></td>
+                                                <td><a href="detailsTenders.php">Sélectiond'un Consultant individuel</a></td>
                                                 <td></td>
                                                 <td>28 Aout 24</td>
                                                 <td>oui</td>

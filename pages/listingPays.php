@@ -98,6 +98,7 @@
                                                 <th>Pays</th>
                                                 <th>Continent</th>
                                                 <th>Actif</th>
+                                                <th>Modif</th>
                                                 <th>Supprimer</th>
                                             </tr>
                                         </thead>
@@ -107,6 +108,7 @@
                                                 <td><a href="./modifyPays.php">Haiti</a></td>
                                                 <td>Amerique</td>
                                                 <td>oui</td>
+                                                <td><a href="./modifyPays.php" class="text-success border-none"><i class="ri-edit-2-line"></i></a></td>
                                                 <td><button class="text-danger border-none"><i class="ri-delete-bin-7-fill"></i></button></td>
                                             </tr>
                                           

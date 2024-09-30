@@ -116,7 +116,7 @@
                                         <i class="ri-star-line"></i>
                                         </div>
                                     </div>
-                                    <h5><span class=" text-primary">[Actif : oui]</span>Operations & Finance Manager</h5>
+                                    <h5><span class=" text-primary">[Actif : oui]</span>Operations & Finance Manager <a href="./modifyTestimonies.php" class="text-success border-none"><i class="ri-edit-2-line"></i></a></h5> 
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse error voluptates velit molestiae quaerat maiores quo, deserunt, voluptate dolorum adipisci, fugiat accusamus nostrum saepe aspernatur possimus nesciunt. Velit ea obcaecati alias, veritatis id architecto animi doloremque consequuntur aliquam in. Est.</p>
                                     <p>Publié le : 13/03/2018 à 12:11</p>
                                </div>
@@ -126,7 +126,7 @@
                                         <i class="ri-star-line"></i>
                                         </div>
                                     </div>
-                                    <h5><span class=" text-primary">[Actif : oui]</span>Operations & Finance Manager</h5>
+                                    <h5><span class=" text-primary">[Actif : oui]</span>Operations & Finance Manager <a href="./modifyTestimonies.php" class="text-success border-none"><i class="ri-edit-2-line"></i></a></h5>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse error voluptates velit molestiae quaerat maiores quo, deserunt, voluptate dolorum adipisci, fugiat accusamus nostrum saepe aspernatur possimus nesciunt. Velit ea obcaecati alias, veritatis id architecto animi doloremque consequuntur aliquam in. Est.</p>
                                     <p>Publié le : 13/03/2018 à 12:11</p>
                                </div>
@@ -136,7 +136,7 @@
                                         <i class="ri-star-line"></i>
                                         </div>
                                     </div>
-                                    <h5><span class=" text-primary">[Actif : oui]</span>Operations & Finance Manager</h5>
+                                    <h5><span class=" text-primary">[Actif : oui]</span>Operations & Finance Manager <a href="./modifyTestimonies.php" class="text-success border-none"><i class="ri-edit-2-line"></i></a></h5>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse error voluptates velit molestiae quaerat maiores quo, deserunt, voluptate dolorum adipisci, fugiat accusamus nostrum saepe aspernatur possimus nesciunt. Velit ea obcaecati alias, veritatis id architecto animi doloremque consequuntur aliquam in. Est.</p>
                                     <p>Publié le : 13/03/2018 à 12:11</p>
                                </div>

@@ -132,6 +132,7 @@
                                                 <th>Publié pa</th>
                                                 <th>Date</th>
                                                 <th>Actif</th>
+                                                <th>Modif</th>
                                                 <th>Supprimer</th>
                                             </tr>
                                         </thead>
@@ -149,6 +150,9 @@
                                                 <td>Bannière principale <br/> duvernayoulmine@gmail.com </td>
                                                 <td>16 Aout 2024</td>
                                                 <td>Activer</td>
+
+
+                                                <td><a href="./modifyArticles.php" class="text-success border-none"><i class="ri-edit-2-line"></i></a></td>
                                                 <td><button class="text-danger border-none"><i class="ri-delete-bin-7-fill"></i></button></td>
                                             </tr>
                                             

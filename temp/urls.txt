@@ -110,20 +110,38 @@ companie = companies or company
 Boby
 9:31 PM
 appel d'offres = tenders (post, listing, modify)
+
+
+
+
+
 offre d'emploi = jobs (post, listing, modify)
 Boby
 9:32 PM
 abonnement = suscription
+
+
+
 seminaire = seminar or training (post, listing, modify)
 Boby
 9:33 PM
 news  = news
 Boby
 9:36 PM
+
+
+
 bourses d'etudes = scholarships (post, modify, listing) and some pages (add international organization, add rubrique, add embassies) are inside
 Boby
 9:37 PM
+
+
+
+
 Domaine = domaine (add, listing, modify)
+
+
+
 specialites = specialities (add, listing, modify)
 Pays = country (add, modify, listing)
 Boby
@@ -131,12 +149,20 @@ Boby
 Ville = cities (add, listing, modify)
 Boby
 9:40 PM
+
+
+
 Etablissement = universities (add, modify, listing) and some pages (add program, modify `program) are inside
 Boby
 9:43 PM
+
 article = article or research paper (listing, modify)
+
+
 Petite annonce  = small ads
+
 FAQ = FAQ (add, modify, listing) and some pages are inside
+
 Boby
 9:55 PM
 https://jobpaw-admin.fahimagro.com/Jobpaw-admin.zip

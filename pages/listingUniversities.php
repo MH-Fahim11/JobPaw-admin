@@ -107,6 +107,7 @@
                                                 <th>Courriel</th>
                                                 <th>Telephone</th>
                                                 <th>Actif</th>
+                                                <th>Modif</th>
                                                 <th>Supprimer</th>
                                             </tr>
                                         </thead>
@@ -114,10 +115,11 @@
                                             <tr>
                                                 <td>0</td>
                                                 <td>1</td>
-                                                <td><a href="">Ecole Supérieure d'Infotronique d'Haiti</a></td>
+                                                <td><a href="detailsUniversities.php">Ecole Supérieure d'Infotronique d'Haiti</a></td>
                                                 <td>informations@esih.edu</td>
                                                 <td>12226 4749, 3778 6922, 3615 287</td>
                                                 <td>oui</td>
+                                                <td><a href="./modifyUniversities.php" class="text-success border-none"><i class="ri-edit-2-line"></i></a></td>
                                                 <td><button class="text-danger border-none"><i class="ri-delete-bin-7-fill"></i></button></td>
                                             </tr>
                                           

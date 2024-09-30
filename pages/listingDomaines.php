@@ -93,6 +93,7 @@
                                                 <th>ID</th>
                                                 <th>Domaine</th>
                                                 <th>Actif</th>
+                                                <th>Modif</th>
                                                 <th>Supprimer</th>
                                             </tr>
                                         </thead>
@@ -101,12 +102,14 @@
                                                 <td>1</td>
                                                 <td>- - Non-defini - -</td>
                                                 <td>non</td>
+                                                <td><a href="./modifyDomaines.php" class="text-success border-none"><i class="ri-edit-2-line"></i></a></td>
                                                 <td><button class="text-danger border-none"><i class="ri-delete-bin-7-fill"></i></button></td>
                                             </tr>
                                             <tr>
                                                 <td>2</td>
                                                 <td>Agriculture – Agroalimentaire</td>
                                                 <td>oui</td>
+                                                <td><a href="./modifyDomaines.php" class="text-success border-none"><i class="ri-edit-2-line"></i></a></td>
                                                 <td><button class="text-danger border-none"><i class="ri-delete-bin-7-fill"></i></button></td>
                                             </tr>
                                             
